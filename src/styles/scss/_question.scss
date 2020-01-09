@@ -1,0 +1,148 @@
+.question-card {
+    padding: 12px 8px;
+    min-height: 79px;
+    overflow: hidden;
+    border-bottom: 1px solid #eff0f1;
+}
+
+.question-list {
+    border-top: 1px solid #d6d9dc;
+}
+
+.question-content {
+    display: inline-block;
+    width: calc(100% - 75px);
+}
+
+.question-body {
+    border-top: 1px solid #d6d9dc;
+    margin: 0px 24px;
+    padding: 16px;
+}
+
+.question-stats {
+    display: inline-block;
+    height: 38px;
+    min-width: 38px;
+    margin: 0 8px 0 0;
+    font-size: 11px;
+    color: #848d95;
+    padding: 7px 6px;
+
+    .comment-counts {
+        font-size: 17px;
+        font-weight: 300;
+        color: #6a737c;
+        margin-bottom: 4px;
+        text-align: center;
+    }
+}
+
+.question-tag {
+    color: #39739d;
+    background-color: #e1ecf4;
+    border-color: #e1ecf4;
+    font-size: 12px;
+    display: inline-block;
+    padding: .4em .5em;
+    margin: 2px 4px 2px 0;
+    font-size: 11px;
+    line-height: 1;
+    white-space: nowrap;
+    text-decoration: none;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.question-tag:hover {
+    color: #32658a;
+    background-color: #cee0ed;
+    border-color: #cee0ed;
+}
+
+.question-info {
+    float: right;
+    font-size: 12px;
+    margin-top: 4px;
+    color: #9199a1;
+}
+
+.user-postdate {
+    font-size: 12px;
+    color: #6a737c;
+    margin-bottom: 1px;
+}
+
+.question-user {
+    color: #0077cc;
+    font-size: 12px;
+}
+
+.comment-date {
+    color: #9199a1;
+    font-size: 12px;
+}
+
+.reputation-score {
+    font-weight: bold;
+    font-size: 12px;
+    margin-right: 2px;
+}
+
+.comments-list {
+    margin: 0px 24px;
+    padding: 16px;
+}
+
+.comment-entry {
+    border-top: 1px solid #d6d9dc;
+    padding: 8px 8px 8px 24px;
+    font-size: 13px;
+}
+
+.user-info-section {
+    height: 66px;
+}
+
+.user-avatar {
+    float: left;
+    width: 32px;
+    height: 32px;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.user-details {
+    margin-left: 40px;
+    width: calc(100% - 40px);
+    line-height: 17px;
+    word-wrap: break-word;
+}
+
+.user-info {
+    float: right;
+    text-align: left;
+    vertical-align: top;
+    width: 200px;
+    border-radius: 3px;
+    background-color: #e1ecf4;
+    box-sizing: border-box;
+    padding: 8px 8px 6px;
+    width: 200px;
+    color: #6a737c;
+}
+
+.headline-stat {
+    display: inline-block;
+    margin-right: 16px;
+    font-size: 13px;
+    color: #6a737c;
+}
+
+.headline-stat-val {
+    color: #000;
+    margin-left: 4px;
+}
